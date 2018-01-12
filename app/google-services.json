@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "622281654905",
+    "firebase_url": "https://ubers-bd722.firebaseio.com",
+    "project_id": "ubers-bd722",
+    "storage_bucket": "ubers-bd722.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622281654905:android:e9dbe611ec5a339b",
+        "android_client_info": {
+          "package_name": "com.sidedrive.chariot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622281654905-k66lf07va030l72e0s6iliur63qaqsdl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sidedrive.chariot",
+            "certificate_hash": "91d19f1a0b4c7a8a2c30ee6a43f42b3ca040cf3c"
+          }
+        },
+        {
+          "client_id": "622281654905-voccgq4h8143d6mpri8q3gjp84ntkpsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwXAJGqgmt4FVSB-0qwOJt0FWJP8LmhtE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622281654905-voccgq4h8143d6mpri8q3gjp84ntkpsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
