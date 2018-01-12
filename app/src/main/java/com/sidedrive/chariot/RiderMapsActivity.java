@@ -109,7 +109,7 @@ public class RiderMapsActivity extends FragmentActivity implements OnMapReadyCal
         m_distance = (TextView) findViewById(R.id.distance);
         m_price = (TextView) findViewById(R.id.price);
 
-        markDrivers();
+        //markDrivers();
 
         m_confirm.setOnClickListener(new View.OnClickListener() {
             @Override
