@@ -48,6 +48,7 @@ public class RiderMapsActivity extends FragmentActivity implements OnMapReadyCal
     private LatLng m_pickupLocation, m_destination, m_driverLocation;
     private LocationRequest m_locationRequest;
     private static final int REQUEST_LOCATION = 2;
+    private static final int DRIVERS_VISIBLE_RANGE = 10;
 
     private Button m_schedule,m_confirm;
     private TextView m_distance,m_price;
@@ -62,7 +63,7 @@ public class RiderMapsActivity extends FragmentActivity implements OnMapReadyCal
         DatabaseReference availableDriversRef = FirebaseDatabase.getInstance().getReference("AvailableDrivers");
 
         GeoFire geoFire = new GeoFire(availableDriversRef);
-        GeoQuery driversLocationQuery = geoFire.queryAtLocation(new GeoLocation(m_pickupLocation.latitude, m_pickupLocation.longitude), m_radius);
+        GeoQuery driversLocationQuery = geoFire.queryAtLocation(new GeoLocation(m_pickupLocation.latitude, m_pickupLocation.longitude), DRIVERS_VISIBLE_RANGE);
 
         driversLocationQuery.removeAllListeners();
 
